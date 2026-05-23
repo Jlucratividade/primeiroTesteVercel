@@ -1,39 +1,21 @@
 {
   "id": 2,
-  "name": "Rua São Vicente",
-  "description": "Rua com opções populares de refeição e farmácia.",
-  "icon": "storefront",
+  "name": "Rua dos Prazeres",
+  "description": "Trecho movimentado",
+  "icon": "home_work",
   "businesses": [
     {
-      "id": 201,
-      "name": "Lanche do Posto",
-      "description": "Hambúrguer artesanal, tapiocas e sucos naturais.",
+      "id": 102,
+      "name": "Mercadinho dos Prazeres",
+      "description": "Lugar muito legal",
       "category": "Alimentação",
       "type": "food",
-      "address": "Rua São Vicente, 87",
-      "city": "Caruaru",
-      "state": "PE",
-      "phone": "(81) 99107-8873",
-      "lat": -8.2819,
-      "lng": -35.9772,
-      "products": [
-        { "id": 8, "name": "X-Burger Artesanal", "description": "Pão brioche, carne 120g, queijo e salada.", "price": 18.9 },
-        { "id": 9, "name": "Tapioca de Frango", "description": "Massa fina recheada com frango temperado e queijo.", "price": 13.5 },
-        { "id": 10, "name": "Suco de Acerola 400ml", "description": "Suco natural sem conservantes.", "price": 7.0 }
-      ]
-    },
-    {
-      "id": 202,
-      "name": "Farmácia Vida Certa",
-      "description": "Atendimento farmacêutico e entrega local sob consulta.",
-      "category": "Farmácia",
-      "type": "pharmacy",
-      "address": "Rua São Vicente, 112",
-      "city": "Caruaru",
-      "state": "PE",
-      "phone": "(81) 98755-3321",
-      "lat": -8.2811,
-      "lng": -35.9767,
+      "address": "Rua dos Prazeres",
+      "city": "Natal",
+      "state": "RN",
+      "phone": "84 9 8888 8888",
+      "lat": -82827,
+      "lng": -359754,
       "products": []
     }
   ]
