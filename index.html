@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content="Diretório de comércio local do bairro – encontre empresas, produtos e serviços perto de você." />
+  <title>Diretório de Comércio do Bairro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xwE/HOl8yP4A1hCkS4fXVFZ8JrjVNewc19hXtOD87mpy4V/mQJu1nvLKYj1WFJsbgx5caX5/C/POb44IVdQ==" crossorigin=""/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <button id="back-btn" class="back-btn" aria-label="Voltar" style="display:none;">
+        <span class="material-icons">arrow_back</span>
+      </button>
+      <div id="back-placeholder" style="width:44px;height:44px;flex-shrink:0;"></div>
+      <div id="header-title" class="header-title">Comércio do Bairro</div>
+    </header>
+
+    <main class="view-stage">
+
+      <!-- VIEW: Ruas -->
+      <section id="view-streets" class="view view-current">
+        <p class="section-title">Ruas do bairro</p>
+        <div id="streets-list">
+          <div class="loading-placeholder">Carregando ruas…</div>
+        </div>
+      </section>
+
+      <!-- VIEW: Empresas -->
+      <section id="view-businesses" class="view view-right">
+        <p class="section-title">Empresas da rua</p>
+        <div id="businesses-list"></div>
+      </section>
+
+      <!-- VIEW: Detalhes -->
+      <section id="view-details" class="view view-right">
+        <div id="details-content"></div>
+      </section>
+
+      <!-- FAB Carrinho -->
+      <button id="cart-fab" class="cart-fab" aria-label="Abrir carrinho" style="display:none;">
+        <span class="material-icons">shopping_cart</span>
+        <span id="fab-badge" class="fab-badge">0</span>
+      </button>
+
+      <!-- Overlay -->
+      <div id="overlay" class="overlay"></div>
+
+      <!-- Painel do Carrinho -->
+      <aside id="cart-panel" class="cart-panel">
+        <div class="cart-handle"></div>
+        <div class="cart-header">
+          <h3 class="cart-title">Seu carrinho</h3>
+          <div id="cart-count-badge" class="counter-badge">0</div>
+        </div>
+        <div id="cart-items" class="cart-items">
+          <div class="empty-note" style="margin-bottom:0;">Seu carrinho está vazio no momento.</div>
+        </div>
+        <div class="cart-footer">
+          <div class="total-row">
+            <span>Total</span>
+            <span id="cart-total">R$ 0,00</span>
+          </div>
+          <button id="checkout-btn" class="checkout-btn" disabled>Finalizar Pedido</button>
+          <p class="small-muted">O pedido será enviado para o WhatsApp da empresa selecionada.</p>
+        </div>
+      </aside>
+
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-nMMxN6Nwf35p3xNmPR9U1FVLtZL1NVr7DiIP9N6byN1Nsx3Rp3XIan+FJxuxMxDPZWS9yuk3F7S3w7Dnk3a1hQ==" crossorigin=""></script>
+  <script src="js/storage.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

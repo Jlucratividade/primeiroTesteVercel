@@ -1,0 +1,58 @@
+{
+  "id": 5,
+  "name": "Rua do Sol",
+  "description": "Rua mista com lanches, salão e pequenos comércios.",
+  "icon": "wb_sunny",
+  "businesses": [
+    {
+      "id": 501,
+      "name": "Pastelaria Sabor do Sol",
+      "description": "Pastéis fritos na hora com recheios tradicionais.",
+      "category": "Alimentação",
+      "type": "food",
+      "address": "Rua do Sol, 95",
+      "city": "Caruaru",
+      "state": "PE",
+      "phone": "(81) 99884-1050",
+      "lat": -8.2861,
+      "lng": -35.9724,
+      "products": [
+        { "id": 19, "name": "Pastel de Carne", "description": "Massa crocante com recheio bem temperado.", "price": 9.0 },
+        { "id": 20, "name": "Pastel de Queijo", "description": "Recheio cremoso com queijo derretido.", "price": 8.5 },
+        { "id": 21, "name": "Caldo de Cana 300ml", "description": "Bebida gelada extraída na hora.", "price": 6.0 }
+      ]
+    },
+    {
+      "id": 502,
+      "name": "Studio Sol & Beleza",
+      "description": "Cortes femininos, escova e design de sobrancelhas.",
+      "category": "Serviços",
+      "type": "service",
+      "address": "Rua do Sol, 122",
+      "city": "Caruaru",
+      "state": "PE",
+      "phone": "(81) 98111-4427",
+      "lat": -8.2854,
+      "lng": -35.9719,
+      "products": []
+    },
+    {
+      "id": 503,
+      "name": "Empório do Sol",
+      "description": "Mercearia de bairro com hortifruti e frios.",
+      "category": "Mercado",
+      "type": "market",
+      "address": "Rua do Sol, 140",
+      "city": "Caruaru",
+      "state": "PE",
+      "phone": "(81) 99490-7706",
+      "lat": -8.2867,
+      "lng": -35.9729,
+      "products": [
+        { "id": 22, "name": "Tomate 1kg", "description": "Tomate vermelho selecionado para salada.", "price": 7.5 },
+        { "id": 23, "name": "Queijo Coalho 500g", "description": "Queijo regional fresco para assar ou fritar.", "price": 18.9 },
+        { "id": 24, "name": "Banana Prata 1 dúzia", "description": "Fruta madura para consumo imediato.", "price": 8.0 }
+      ]
+    }
+  ]
+}

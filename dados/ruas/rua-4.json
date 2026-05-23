@@ -1,0 +1,40 @@
+{
+  "id": 4,
+  "name": "Travessa Bela Vista",
+  "description": "Travessa movimentada com clínica e loja de conveniência.",
+  "icon": "local_hospital",
+  "businesses": [
+    {
+      "id": 401,
+      "name": "Clínica Sorriso Fácil",
+      "description": "Atendimento odontológico com avaliação e limpeza.",
+      "category": "Saúde",
+      "type": "service",
+      "address": "Travessa Bela Vista, 41",
+      "city": "Caruaru",
+      "state": "PE",
+      "phone": "(81) 98921-6502",
+      "lat": -8.2802,
+      "lng": -35.9741,
+      "products": []
+    },
+    {
+      "id": 402,
+      "name": "Bela Vista Conveniência",
+      "description": "Loja prática com bebidas, snacks e utilidades.",
+      "category": "Mercado",
+      "type": "market",
+      "address": "Travessa Bela Vista, 63",
+      "city": "Caruaru",
+      "state": "PE",
+      "phone": "(81) 99773-5541",
+      "lat": -8.2798,
+      "lng": -35.9735,
+      "products": [
+        { "id": 16, "name": "Água Mineral 1,5L", "description": "Garrafa sem gás para consumo diário.", "price": 3.5 },
+        { "id": 17, "name": "Biscoito Recheado 120g", "description": "Pacote doce para lanche rápido.", "price": 3.99 },
+        { "id": 18, "name": "Energético 269ml", "description": "Lata gelada pronta para retirada.", "price": 8.5 }
+      ]
+    }
+  ]
+}

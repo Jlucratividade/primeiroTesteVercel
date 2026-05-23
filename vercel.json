@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "routes": [
+    {
+      "src": "/dados/(.*)",
+      "headers": {
+        "Cache-Control": "public, max-age=300, stale-while-revalidate=60",
+        "Content-Type": "application/json; charset=utf-8"
+      },
+      "dest": "/dados/$1"
+    },
+    {
+      "src": "/css/(.*)",
+      "headers": { "Cache-Control": "public, max-age=86400" },
+      "dest": "/css/$1"
+    },
+    {
+      "src": "/js/(.*)",
+      "headers": { "Cache-Control": "public, max-age=86400" },
+      "dest": "/js/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}

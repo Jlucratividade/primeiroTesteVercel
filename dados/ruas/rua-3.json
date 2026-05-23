@@ -1,0 +1,57 @@
+{
+  "id": 3,
+  "name": "Avenida do Cedro",
+  "description": "Corredor comercial com açougue, oficina e serviços rápidos.",
+  "icon": "directions_car",
+  "businesses": [
+    {
+      "id": 301,
+      "name": "Açougue do Seu Zé",
+      "description": "Carnes frescas, cortes sob medida e temperos caseiros.",
+      "category": "Alimentação",
+      "type": "market",
+      "address": "Avenida do Cedro, 301",
+      "city": "Caruaru",
+      "state": "PE",
+      "phone": "(81) 99681-4017",
+      "lat": -8.2844,
+      "lng": -35.9788,
+      "products": [
+        { "id": 11, "name": "Alcatra 1kg", "description": "Corte macio ideal para grelha ou panela.", "price": 49.9 },
+        { "id": 12, "name": "Frango Inteiro Resfriado", "description": "Ave limpa e pronta para preparo.", "price": 19.9 },
+        { "id": 13, "name": "Linguiça Toscana 1kg", "description": "Produção local com tempero suave.", "price": 24.5 }
+      ]
+    },
+    {
+      "id": 302,
+      "name": "Oficina Cedro Car",
+      "description": "Mecânica leve, troca de óleo e revisão preventiva.",
+      "category": "Serviços",
+      "type": "workshop",
+      "address": "Avenida do Cedro, 355",
+      "city": "Caruaru",
+      "state": "PE",
+      "phone": "(81) 98213-7740",
+      "lat": -8.285,
+      "lng": -35.9793,
+      "products": []
+    },
+    {
+      "id": 303,
+      "name": "Casa de Ração Cedro",
+      "description": "Rações, petiscos e acessórios para cães e gatos.",
+      "category": "Pet Shop",
+      "type": "market",
+      "address": "Avenida do Cedro, 280",
+      "city": "Caruaru",
+      "state": "PE",
+      "phone": "(81) 99415-2198",
+      "lat": -8.2838,
+      "lng": -35.9781,
+      "products": [
+        { "id": 14, "name": "Ração Premium Cães 1kg", "description": "Alimento balanceado para cães adultos.", "price": 16.9 },
+        { "id": 15, "name": "Sachê Gatos 85g", "description": "Sachê de carne ao molho para gatos adultos.", "price": 4.8 }
+      ]
+    }
+  ]
+}
