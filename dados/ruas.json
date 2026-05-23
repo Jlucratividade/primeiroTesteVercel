@@ -2,36 +2,15 @@
   {
     "id": 1,
     "name": "Rua das Acácias",
-    "description": "Trecho residencial com comércio de conveniência e padaria.",
+    "description": "Trecho residencial…",
     "icon": "home_work",
-    "businessCount": 3
+    "businessCount": 1
   },
   {
     "id": 2,
-    "name": "Rua São Vicente",
-    "description": "Rua com opções populares de refeição e farmácia.",
-    "icon": "storefront",
-    "businessCount": 2
-  },
-  {
-    "id": 3,
-    "name": "Avenida do Cedro",
-    "description": "Corredor comercial com açougue, oficina e serviços rápidos.",
-    "icon": "directions_car",
-    "businessCount": 3
-  },
-  {
-    "id": 4,
-    "name": "Travessa Bela Vista",
-    "description": "Travessa movimentada com clínica e loja de conveniência.",
-    "icon": "local_hospital",
-    "businessCount": 2
-  },
-  {
-    "id": 5,
-    "name": "Rua do Sol",
-    "description": "Rua mista com lanches, salão e pequenos comércios.",
-    "icon": "wb_sunny",
-    "businessCount": 3
+    "name": "Rua dos Prazeres",
+    "description": "Trecho movimentado",
+    "icon": "home_work",
+    "businessCount": 1
   }
 ]
