@@ -1,58 +1,28 @@
 {
   "id": 1,
   "name": "Rua das Acácias",
-  "description": "Trecho residencial com comércio de conveniência e padaria.",
+  "description": "Trecho residencial…",
   "icon": "home_work",
   "businesses": [
     {
       "id": 101,
       "name": "Padaria Pão Quentinho",
-      "description": "Padaria de bairro com pães frescos e lanches rápidos.",
+      "description": "…",
       "category": "Alimentação",
       "type": "food",
       "address": "Rua das Acácias, 148",
       "city": "Caruaru",
       "state": "PE",
       "phone": "(81) 98811-2401",
-      "lat": -8.2827,
-      "lng": -35.9754,
+      "lat": -82827,
+      "lng": -359754,
       "products": [
-        { "id": 1, "name": "Pão Francês (10 un.)", "description": "Pacote com pães crocantes feitos no turno da tarde.", "price": 9.5 },
-        { "id": 2, "name": "Bolo de Rolo Fatia", "description": "Fatia generosa de bolo de rolo com goiabada.", "price": 7.9 },
-        { "id": 3, "name": "Café com Leite 300ml", "description": "Bebida quente preparada na hora.", "price": 5.5 },
-        { "id": 4, "name": "Misto Quente Especial", "description": "Pão de forma, queijo coalho e presunto.", "price": 11.9 }
-      ]
-    },
-    {
-      "id": 102,
-      "name": "Barbearia Estilo da Vila",
-      "description": "Cortes masculinos, barba e acabamento com horário flexível.",
-      "category": "Serviços",
-      "type": "service",
-      "address": "Rua das Acácias, 221",
-      "city": "Caruaru",
-      "state": "PE",
-      "phone": "(81) 98124-6508",
-      "lat": -8.2833,
-      "lng": -35.9748,
-      "products": []
-    },
-    {
-      "id": 103,
-      "name": "Mercadinho Acácia Mix",
-      "description": "Mercado compacto com itens básicos e bebidas geladas.",
-      "category": "Mercado",
-      "type": "market",
-      "address": "Rua das Acácias, 265",
-      "city": "Caruaru",
-      "state": "PE",
-      "phone": "(81) 99642-1103",
-      "lat": -8.2824,
-      "lng": -35.9739,
-      "products": [
-        { "id": 5, "name": "Arroz Parboilizado 1kg", "description": "Pacote tradicional para o dia a dia.", "price": 8.99 },
-        { "id": 6, "name": "Feijão Carioca 1kg", "description": "Grãos selecionados de cozimento rápido.", "price": 9.79 },
-        { "id": 7, "name": "Refrigerante Cola 2L", "description": "Garrafa gelada pronta para consumo.", "price": 10.5 }
+        {
+          "id": 1,
+          "name": "Pão Francês (10 un.)",
+          "description": "Pacote com pães…",
+          "price": 9.5
+        }
       ]
     }
   ]
